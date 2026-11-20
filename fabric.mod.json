@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "winlose",
+  "version": "${version}",
+  "name": "WinLose HUD",
+  "description": "Показывает WIN/LOSE во время PvP по HP.",
+  "environment": "client",
+  "entrypoints": { "client": ["ru.winlose.WinLoseMod"] },
+  "depends": { "fabricloader": ">=0.14.0", "minecraft": "1.20.1", "java": ">=17", "fabric-api": "*" }
+}
